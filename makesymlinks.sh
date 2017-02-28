@@ -32,11 +32,3 @@ for file in $files; do
 	ln -s $dir/$file ~/.$file
 done
 
-#configure vim color scheme
-#if [ ! -d "~/.vim" ]; then
-#  mkdir ~/.vim
-#  if [ ! -d "~/.vim/colors"]; then
-#    mkdir ~/.vim/colors
-#  fi
-#fi
-#mv ./colors/* ~/.vim/colors
