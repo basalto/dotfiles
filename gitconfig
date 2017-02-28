@@ -1,0 +1,26 @@
+[user]
+	name = Ricardo Dinis
+	email = basalto@gmail.com
+[github]
+	user = basalto
+[core]
+	excludesfile = ~/.gitignore
+	editor = subl -n -w
+[color]
+	ui = true
+[alias]
+	wdiff = diff
+	lg = log --max-count=12 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	p = pull --rebase --prune
+	co = checkout
+	ec = config --global -e
+	amend = commit -a --amend
+  wipe = '!git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard'
+	branches = for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'
+	aliases = config --get-regexp ^alias\\.
+	showstat = show --stat
+	unstage = reset HEAD --
+[help]
+	autocorrect = 1
+[branch]
+	autosetuprebase = always

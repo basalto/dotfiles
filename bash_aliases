@@ -2,7 +2,12 @@
 alias ccat='pygmentize -g'
 
 # safety
-alias rm='rm -i'
+#alias rm='rm -i'
+
+# Directory shortcuts
+alias repos="cd ~/repos"
+alias dl="cd ~/Downloads"
+alias downloads="cd ~/Downloads"
 
 # Conda
 alias c='conda'

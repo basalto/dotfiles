@@ -1,0 +1,10 @@
+[core]
+	autocrlf = input
+	safecrlf = true
+[format]
+	pretty = oneline
+[color]
+	ui = true
+[user]
+	name = Ricardo Dinis
+	email = basalto@gmail.com
