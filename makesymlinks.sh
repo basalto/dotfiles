@@ -10,7 +10,7 @@
 
 dir=~/repos/dotfiles                                  # dotfiles directory
 olddir=~/repos/dotfiles/dotfiles_old                  # old dotfiles backup directory
-files="bash_aliases bash_functions vimrc bashrc vim"  # list of files/folders to symlink in homedir
+files="bashrc bash_aliases bash_functions vimrc vim gitignore gitconfig"  # list of files/folders to symlink in homedir
 
 ##########
 
